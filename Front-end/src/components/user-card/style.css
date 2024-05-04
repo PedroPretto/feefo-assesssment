@@ -1,0 +1,64 @@
+p {
+    margin: 0;
+}
+
+.header {
+    color: #b1afae;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container {
+    height: 10rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.body {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.profile-picture {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem;
+    background-color: #f2b907;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-left: 1rem;
+}
+
+.user-info-name {
+    color: #4c494a;
+    font-weight: bold;
+}
+
+.user-info-bottom {
+    display: flex;
+}
+
+.user-info-bottom-left {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.user-info-bottom-email {
+    margin-left: 0.5rem;
+    color: #7e7e7e;
+}
+
+.user-info-bottom-id {
+    color: #7e7e7e;
+}

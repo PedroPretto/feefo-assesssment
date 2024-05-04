@@ -1,0 +1,34 @@
+.percentage-card {
+    height: 6rem;
+    background-color: #fff;
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.percentage-card p {
+    width: fit-content;
+    margin-left: 1rem;
+}
+
+
+.percentage-card-top {
+    color: #21a650;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.percentage-card-bottom {
+    color: #b1afae;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .percentage-card {
+        width: 100vw;
+        margin-bottom: 0.7rem;
+    }
+}

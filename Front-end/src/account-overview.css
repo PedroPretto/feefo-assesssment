@@ -1,0 +1,52 @@
+.AccountOverview {
+  background-color: #f4f4f4;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  min-width: 50vw;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    width: 100vw;
+  }
+
+  .percentage-card-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+.left {
+  font-size: 2rem;
+  color: #4c494a;
+  height: 7rem;
+}
+
+.summary-card-container {
+  margin-bottom: 0.6rem;
+}
+
+.percentage-card-container {
+  display: flex;
+  justify-content: space-between;
+}
